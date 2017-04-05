@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2017.1.28.0" projectFile="D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\GrasshopperSDKHelp.shfbproj.teamcity" started="3/30/2017 3:25:47 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2017.1.28.0" projectFile="D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\GrasshopperSDKHelp.shfbproj.teamcity" started="4/5/2017 10:32:17 AM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -37,16 +37,16 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0310
+</plugIn>    Last step completed in 00:00:00.0330
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:06.8207
+    Last step completed in 00:00:07.2120
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 3/30/2017 3:26:05 PM.
+Build started 4/5/2017 10:32:37 AM.
 Project &quot;D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -56,7 +56,7 @@ GenerateRefInfo:
   Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 2 assemblies for reflection and 2 dependency assemblies.
-  Wrote information on 23 namespaces, 636 types, and 6889 members
+  Wrote information on 23 namespaces, 636 types, and 6894 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2017.1.28.0)
   Copyright c 2006-2017, Microsoft Corporation, All Rights Reserved.
@@ -66,13 +66,13 @@ Done Building Project &quot;D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug
 
 Build succeeded.
 
-Time Elapsed 00:00:03.74
-    Last step completed in 00:00:04.0124
+Time Elapsed 00:00:03.82
+    Last step completed in 00:00:04.0860
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\MSBuild.exe - TransformManifest.proj]
-Build started 3/30/2017 3:26:09 PM.
+Build started 4/5/2017 10:32:41 AM.
 Project &quot;D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2017.1.28.0)
@@ -796,6 +796,7 @@ TransformManifest:
     Unique name M_Grasshopper_Kernel_GH_PersistentParam_1_SetPersistentData_2 generated for M:Grasshopper.Kernel.GH_PersistentParam`1.SetPersistentData(System.Object[])
     Unique name M_Grasshopper_Kernel_GH_PersistentParam_1_SetPersistentData_3 generated for M:Grasshopper.Kernel.GH_PersistentParam`1.SetPersistentData(`0)
     Unique name M_Grasshopper_Kernel_GH_PreviewUtil__ctor_1 generated for M:Grasshopper.Kernel.GH_PreviewUtil.#ctor(System.Boolean)
+    Unique name M_Grasshopper_Kernel_GH_RenderArgs__ctor_1 generated for M:Grasshopper.Kernel.GH_RenderArgs.#ctor(Rhino.RhinoDoc,Rhino.DocObjects.ViewportInfo,Rhino.Render.RenderPrimitiveList,System.Guid,Rhino.Render.RenderMaterial,Rhino.Render.RenderMaterial)
     Unique name M_Grasshopper_Kernel_GH_SettingsServer__ctor_1 generated for M:Grasshopper.Kernel.GH_SettingsServer.#ctor(System.String,System.Boolean)
     Unique name M_Grasshopper_Kernel_GH_SettingsServer_GetValue_1 generated for M:Grasshopper.Kernel.GH_SettingsServer.GetValue(System.String,System.Byte)
     Unique name M_Grasshopper_Kernel_GH_SettingsServer_GetValue_2 generated for M:Grasshopper.Kernel.GH_SettingsServer.GetValue(System.String,System.DateTime)
@@ -1008,8 +1009,10 @@ TransformManifest:
     Unique name M_Grasshopper_Kernel_Types_GH_LonLatCoordinate__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_LonLatCoordinate.#ctor(System.Double,System.Double)
     Unique name M_Grasshopper_Kernel_Types_GH_Material__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_Material.#ctor(Grasshopper.Kernel.Types.GH_Material)
     Unique name M_Grasshopper_Kernel_Types_GH_Material__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_Material.#ctor(Rhino.Display.DisplayMaterial)
-    Unique name M_Grasshopper_Kernel_Types_GH_Material__ctor_3 generated for M:Grasshopper.Kernel.Types.GH_Material.#ctor(System.Drawing.Color)
-    Unique name M_Grasshopper_Kernel_Types_GH_Material__ctor_4 generated for M:Grasshopper.Kernel.Types.GH_Material.#ctor(System.Guid)
+    Unique name M_Grasshopper_Kernel_Types_GH_Material__ctor_3 generated for M:Grasshopper.Kernel.Types.GH_Material.#ctor(Rhino.Render.RenderMaterial)
+    Unique name M_Grasshopper_Kernel_Types_GH_Material__ctor_4 generated for M:Grasshopper.Kernel.Types.GH_Material.#ctor(System.Drawing.Color)
+    Unique name M_Grasshopper_Kernel_Types_GH_Material__ctor_5 generated for M:Grasshopper.Kernel.Types.GH_Material.#ctor(System.Guid)
+    Unique name M_Grasshopper_Kernel_Types_GH_Material__ctor_6 generated for M:Grasshopper.Kernel.Types.GH_Material.#ctor(System.String)
     Unique name M_Grasshopper_Kernel_Types_GH_Matrix__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_Matrix.#ctor(Grasshopper.Kernel.Types.GH_Matrix)
     Unique name M_Grasshopper_Kernel_Types_GH_Matrix__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_Matrix.#ctor(Rhino.Geometry.Matrix)
     Unique name M_Grasshopper_Kernel_Types_GH_Mesh__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_Mesh.#ctor(Grasshopper.Kernel.Types.GH_Mesh)
@@ -1081,12 +1084,12 @@ Done Building Project &quot;D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug
 
 Build succeeded.
 
-Time Elapsed 00:00:10.86
-    Last step completed in 00:00:11.0111
+Time Elapsed 00:00:10.63
+    Last step completed in 00:00:10.7860
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.4360
+    Last step completed in 00:00:00.4290
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -1175,28 +1178,28 @@ Generating conceptual topic files
     D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Conceptual Content\CS_CustomAttributes.aml -&gt; D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\ddueXml\8a7974ab-7b2b-4f48-84d0-6e81b184e6b0.xml
     Parsing topic file &#39;D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Conceptual Content\CS_ComponentWithOption.aml&#39;
     D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Conceptual Content\CS_ComponentWithOption.aml -&gt; D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\ddueXml\5f6a9f31-8838-40e6-ad37-a407be8f2c15.xml
-    Last step completed in 00:00:00.8941
+    Last step completed in 00:00:00.8780
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     Merging topic IDs into manifest.xml
-    Last step completed in 00:00:00.0500
+    Last step completed in 00:00:00.0510
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0090
+    Last step completed in 00:00:00.0050
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0110
+    Last step completed in 00:00:00.0090
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 3/30/2017 3:26:21 PM.
+Build started 4/5/2017 10:32:53 AM.
 Project &quot;D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2017.1.28.0)
@@ -1207,14 +1210,14 @@ Done Building Project &quot;D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug
 
 Build succeeded.
 
-Time Elapsed 00:00:00.63
+Time Elapsed 00:00:00.60
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.8351
+    Last step completed in 00:00:00.8080
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.5961
+    Last step completed in 00:00:00.5610
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -1222,12 +1225,12 @@ D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK
   Updating reference topic configurations.
   Updating conceptual topic configurations.
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00.0140
+    Last step completed in 00:00:00.0120
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\MSBuild.exe - BuildTopics.proj]
-Build started 3/30/2017 3:26:23 PM.
+Build started 4/5/2017 10:32:55 AM.
 Project &quot;D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2017.1.28.0)
@@ -2799,6 +2802,12 @@ BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Kernel.GH_Releva
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Kernel.GH_RelevantObjectData.Parameter] Missing &lt;value&gt; documentation [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Kernel.GH_RelevantObjectData.Point] Missing &lt;value&gt; documentation [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Kernel.GH_RelevantObjectData.TopLevelObject] Missing &lt;value&gt; documentation [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Kernel.GH_RenderArgs.#ctor(Rhino.RhinoDoc,Rhino.DocObjects.ViewportInfo,Rhino.Render.RenderPrimitiveList,System.Guid)] Unknown reference link target &#39;T:Rhino.RhinoDoc&#39;. [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Kernel.GH_RenderArgs.#ctor(Rhino.RhinoDoc,Rhino.DocObjects.ViewportInfo,Rhino.Render.RenderPrimitiveList,System.Guid)] Unknown reference link target &#39;T:Rhino.DocObjects.ViewportInfo&#39;. [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Kernel.GH_RenderArgs.#ctor(Rhino.RhinoDoc,Rhino.DocObjects.ViewportInfo,Rhino.Render.RenderPrimitiveList,System.Guid)] Unknown reference link target &#39;T:Rhino.Render.RenderPrimitiveList&#39;. [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Kernel.GH_RenderArgs.#ctor(Rhino.RhinoDoc,Rhino.DocObjects.ViewportInfo,Rhino.Render.RenderPrimitiveList,System.Guid)] Unknown reference link target &#39;T:Rhino.RhinoDoc&#39;. [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Kernel.GH_RenderArgs.#ctor(Rhino.RhinoDoc,Rhino.DocObjects.ViewportInfo,Rhino.Render.RenderPrimitiveList,System.Guid)] Unknown reference link target &#39;T:Rhino.DocObjects.ViewportInfo&#39;. [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Kernel.GH_RenderArgs.#ctor(Rhino.RhinoDoc,Rhino.DocObjects.ViewportInfo,Rhino.Render.RenderPrimitiveList,System.Guid)] Unknown reference link target &#39;T:Rhino.Render.RenderPrimitiveList&#39;. [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Kernel.GH_RenderArgs.#ctor(Rhino.RhinoDoc,Rhino.DocObjects.ViewportInfo,Rhino.Render.RenderPrimitiveList,System.Guid,Rhino.Render.RenderMaterial,Rhino.Render.RenderMaterial)] Unknown reference link target &#39;T:Rhino.RhinoDoc&#39;. [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Kernel.GH_RenderArgs.#ctor(Rhino.RhinoDoc,Rhino.DocObjects.ViewportInfo,Rhino.Render.RenderPrimitiveList,System.Guid,Rhino.Render.RenderMaterial,Rhino.Render.RenderMaterial)] Unknown reference link target &#39;T:Rhino.DocObjects.ViewportInfo&#39;. [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Kernel.GH_RenderArgs.#ctor(Rhino.RhinoDoc,Rhino.DocObjects.ViewportInfo,Rhino.Render.RenderPrimitiveList,System.Guid,Rhino.Render.RenderMaterial,Rhino.Render.RenderMaterial)] Unknown reference link target &#39;T:Rhino.Render.RenderPrimitiveList&#39;. [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
@@ -3724,14 +3733,20 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Grasshopper.Kernel
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Grasshopper.Kernel.Types.GH_Material] Unknown reference link target &#39;T:Rhino.Display.DisplayMaterial&#39;. [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Kernel.Types.GH_Material.#ctor(Rhino.Display.DisplayMaterial)] Unknown reference link target &#39;T:Rhino.Display.DisplayMaterial&#39;. [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Kernel.Types.GH_Material.#ctor(Rhino.Display.DisplayMaterial)] Unknown reference link target &#39;T:Rhino.Display.DisplayMaterial&#39;. [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Kernel.Types.GH_Material.#ctor(Rhino.Render.RenderMaterial)] Unknown reference link target &#39;T:Rhino.Render.RenderMaterial&#39;. [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Kernel.Types.GH_Material.#ctor(Rhino.Render.RenderMaterial)] Unknown reference link target &#39;T:Rhino.Render.RenderMaterial&#39;. [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Kernel.Types.GH_Material.CreateRhinoMaterial(System.Drawing.Color)] Unknown reference link target &#39;T:Rhino.DocObjects.Material&#39;. [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Kernel.Types.GH_Material.CreateRhinoMaterial(System.Drawing.Color)] Unknown reference link target &#39;T:Rhino.DocObjects.Material&#39;. [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Kernel.Types.GH_Material.CreateStandardMaterial(System.Drawing.Color)] Unknown reference link target &#39;T:Rhino.Display.DisplayMaterial&#39;. [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Kernel.Types.GH_Material.CreateStandardMaterial(System.Drawing.Color)] Unknown reference link target &#39;T:Rhino.Display.DisplayMaterial&#39;. [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Kernel.Types.GH_Material.IsReferencedShader] Missing &lt;value&gt; documentation [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Kernel.Types.GH_Material.IsValid] Missing &lt;value&gt; documentation [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Kernel.Types.GH_Material.IsValidWhyNot] Missing &lt;value&gt; documentation [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Kernel.Types.GH_Material.MaterialBestGuess] Unknown reference link target &#39;T:Rhino.Render.RenderMaterial&#39;. [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Kernel.Types.GH_Material.MaterialBestGuess] Unknown reference link target &#39;T:Rhino.Render.RenderMaterial&#39;. [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Kernel.Types.GH_Material.RdkMaterialId] Missing &lt;value&gt; documentation [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Kernel.Types.GH_Material.RdkMaterialRmtl] Missing &lt;value&gt; documentation [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Kernel.Types.GH_Material.RdkMaterialXml] Missing &lt;value&gt; documentation [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Kernel.Types.GH_Material.Type] Missing &lt;value&gt; documentation [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Kernel.Types.GH_Material.TypeDescription] Missing &lt;value&gt; documentation [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Kernel.Types.GH_Material.TypeName] Missing &lt;value&gt; documentation [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Kernel.Types.GH_Material.GH_Material_Proxy.Diffuse] Missing &lt;value&gt; documentation [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
@@ -4358,8 +4373,8 @@ BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Plugin.GH_Resour
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Plugin.GH_ResourceGate.Warning_24x24] Missing &lt;value&gt; documentation [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Plugin.GH_ResourceGate.Warning_40x40] Missing &lt;value&gt; documentation [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Plugin.GH_ResourceGate.WhiteIcon] Missing &lt;value&gt; documentation [D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
-  Processed 8483 topic(s)
-  3123 warning(s)
+  Processed 8488 topic(s)
+  3135 warning(s)
   CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
   ResolveArtLinksComponent: Copying media files...
   ResolveArtLinksComponent: Copying media files...
@@ -4369,12 +4384,12 @@ Done Building Project &quot;D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug
 
 Build succeeded.
 
-Time Elapsed 00:01:47.07
-    Last step completed in 00:01:47.2737
+Time Elapsed 00:01:45.10
+    Last step completed in 00:01:45.3070
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0900
+    Last step completed in 00:00:00.0810
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -4386,17 +4401,17 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing Help 1 files in D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\Output\HtmlHelp1
-Processed 8483 HTML files
+Processed 8488 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\GrasshopperSDK.hhk
 Saving HTML Help 1 table of contents to D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\GrasshopperSDK.hhc
 
 Processing website files in D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\Output\Website
-Processed 8483 HTML files
+Processed 8488 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\WebKI.xml
 Saving website table of contents to D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\WebTOC.xml
-    Last step completed in 00:00:16.4800
+    Last step completed in 00:00:18.9892
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -4538,7 +4553,7 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; D:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:01.8362
+    Last step completed in 00:00:02.0280
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
@@ -4546,11 +4561,11 @@ Generating HTML Help 1 table of contents file...
 </buildStep>
 <buildStep step="GenerateHelpFileIndex">
 Generating HTML Help 1 index file...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.1910
+    Last step completed in 00:00:00.2290
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -4565,13 +4580,13 @@ Compiling HTML Help 1 file...
   
   
   
-  Compile time: 1 minute, 15 seconds
+  Compile time: 1 minute, 14 seconds
   
-  8,485	Topics
+  8,490	Topics
   
-  98,924	Local links
+  98,968	Local links
   
-  17,760	Internet links
+  17,767	Internet links
   
   0	Graphics
   
@@ -4579,11 +4594,11 @@ Compiling HTML Help 1 file...
   
   
   
-  Created d:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\Output\HtmlHelp1\GrasshopperSDK.chm, 7,058,242 bytes
+  Created d:\BuildAgent\work\a1ccb9f8efc06fc0\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\Output\HtmlHelp1\GrasshopperSDK.chm, 7,063,954 bytes
   
-  Compression decreased file by 65,530,696 bytes.
+  Compression decreased file by 65,564,578 bytes.
   
-    Last step completed in 00:01:17.5324
+    Last step completed in 00:01:17.1710
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
@@ -4594,7 +4609,7 @@ Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:21.2889
+</plugIn>    Last step completed in 00:00:20.6360
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -4619,16 +4634,16 @@ Copied 8500 files
 Copied 9000 files
 Copied 9500 files
 Copied 10000 files
-Copied 10411 files for the website content
-    Last step completed in 00:00:12.8549
+Copied 10416 files for the website content
+    Last step completed in 00:00:51.4142
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:05.6786
+    Last step completed in 00:00:04.4750
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 3/30/2017 3:30:26 PM.  Total time: 00:04:39.4893
+Build completed successfully at 4/5/2017 10:37:35 AM.  Total time: 00:05:18.3364
 
 </buildStep>
 </shfbBuild>
